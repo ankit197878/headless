@@ -53,7 +53,19 @@ export const Hero = () => (
       </SlideshowSlide>
       <SlideshowSlide>
         <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
-          <h2 className="text-5xl font-black lg:text-6xl">Low Prices</h2>
+          <h2 className="text-5xl font-black lg:text-6xl">Low Prices111</h2>
+          <p className="max-w-xl">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+          </p>
+          <Button asChild className="w-fit">
+            <a href="/#">Shop now</a>
+          </Button>
+        </div>
+      </SlideshowSlide>
+      <SlideshowSlide>
+        <div className="flex flex-col gap-4 bg-gray-100 px-12 pb-48 pt-36">
+          <h2 className="text-5xl font-black lg:text-6xl">High Prices</h2>
           <p className="max-w-xl">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
